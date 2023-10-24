@@ -1,0 +1,237 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+#greeting-body{
+    background-image: url(codes-bg.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+/*buttons styling*/
+.btn {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+    text-decoration-line:none;
+}
+
+.btn:hover { 
+    background-color: blue;
+    color: white;
+}
+
+.begin-btn {
+     display: inline-block;
+     border: 1px solid transparent;
+     padding: 10px 110px;
+     border-radius: 15px;
+     color: blue;
+     background-color: transparent;
+     border-color: blue;
+     cursor: pointer;
+     text-decoration-line:none;
+     margin-top: 15px;
+     margin-bottom: 30px;
+ }
+ 
+ .begin-btn:hover { 
+     background-color: blue;
+     color: white;
+ }
+
+.lesson-btn {
+    cursor: pointer;  
+    background-color: transparent;
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+    border-image: initial;
+
+}
+/*buttons styling*/
+
+
+#create-new{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+#Signup-form input{
+    width: 300px;
+    padding:10px 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+#Show-pass{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Show-pass input{
+width: 20px;
+margin-right: 80px;
+}
+
+#Show-pass label{
+margin-left: 70px;
+}
+
+.transparent-bg{
+    background-color: rgba(0,0,0,50%);
+}
+
+.anchor{
+    all:unset;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+.white-text{
+    color: white;
+}
+
+.main-square{
+    text-align: center;
+    
+}
+
+.main-square-div{
+    display: flex;
+    color: blue;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    max-width: 300px;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+
+.blue-bg{
+    background-color: blue;
+}
+
+#main-header{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#main-header h2 {
+    display: inline;
+    white-space: nowrap;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#progress-div{
+    width: 100%;
+    text-align: end;
+    margin-right: 16px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.progress-reset svg:hover{
+    fill:rgb(185, 183, 183)
+}
+.progress-reset{
+    all: unset;
+    cursor: pointer;
+}
+#content-body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-title{
+    font-size: 60px;
+}
+.content{
+    font-size: 20px;
+}
+
+
+
+
+/*main content styling*/
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-content aside{
+    margin: 8px;
+    min-width: 220px;
+}
+#main-content section{
+    padding: 0px 30px;
+    padding-bottom: 50px;
+
+}
+/*main content styling*/
+
+
+/*progress bar style*/
+#lesson-progress{
+    display: inline;
+    height: 30px;
+    width: 220px;
+}
+/*progress bar style*/
+
+
+/*navigation styling*/
+.main-nav{
+    padding: 16px;
+}
+.main-nav ol{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    min-width: 200px;
+}
+.main-nav li{
+    padding: 4px;
+    margin: 0;
+}
+/*navigation styling*/

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloHTML</title>
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+
+<body id="greeting-body">
+    <header id="main-header" style="display: block;" class="transparent-bg center"><a href="./index.html" class="anchor">
+            <h2>Hello Html</h2>
+        </a></header>
+
+    <main class="main-square">
+        <div class="main-square-div">
+            <div class="box">
+                <h1>New Account</h1>
+                <form id="Signup-form" action="/">
+
+                    <input name="username" id="username" type="text" placeholder="Username" required>
+
+                    <input name="email" id="email" type="email" placeholder="Email" required>
+
+                    <input name="password" id="user-pass" type="password" placeholder="Password" minlength="8" required>
+
+                    <input name="password2" id="user-pass2" type="password" placeholder="Password again" required>
+
+                    <div class id="Show-pass">
+
+                        <label for="ShowPass" class="center-Show-password">Show Passwords</label>
+                        <input type="checkbox" onclick="ShowPassword()" name="Show-Password" id="ShowPass">
+                    </div>
+                    <button class="begin-btn" type="submit">submit</button>
+                    <a class="begin-btn" href="./content/introduction.html">START</a>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    
+    <!--script for showing password-->
+    <script>
+        const password = document.getElementById('user-pass');
+        const password2 = document.getElementById('user-pass2');
+
+
+        function ShowPassword() {
+            if (password.type === "password" && password2.type === "password") {
+                password.type = "text";
+                password2.type = "text";
+            } else {
+                password.type = "password";
+                password2.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>

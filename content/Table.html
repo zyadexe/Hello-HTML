@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <title>HelloHTML</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body id="content-body">
+    <header id="main-header" class="blue-bg">
+        <a href="../index.html" class="anchor"><h2>Hello Html</h2></a>
+        <div id="progress-div">
+            <button type="button" class="progress-reset" onclick="resetProgress()"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z"/></svg></button>
+            <progress id="lesson-progress" value="0" max="100"></progress>
+        </div>
+        
+    </header>
+    <main id="main-content">
+        <aside>
+            <h2>Content</h2>
+            <section>
+                <nav class="main-nav">
+                <ol>
+                    <li><a href="./introduction.html">introduction</a></li>
+                    <li><a href="./Formating-elements.html">Formating elements</a></li>
+                    <li><a href="./Headings.html">HTML Headings</a></li>
+                    <li><a href="./Comments.html">Comments</a></li>
+                    <li><a href="./Attributes.html">HTML Attributes</a></li>
+                    <li><a href="./a.html">The anchor (a) tag</a></li>
+                    <li><a href="./ol.html">HTML Ordered Lists</a></li>
+                    <li><a href="./Table.html">HTML Tables</a></li>
+                    
+                    <li><a href="./form.html">The form element</a></li>
+                    
+                </ol>
+            </nav>
+            </section>
+        </aside>
+        <section id="lesson">
+            <header><h2 class="content-title">HTML Tables</h2></header>
+            <p class="content">Tables are defined by using the table tag. Tables are divided into table rows with the tr tag. Table 
+                rows are divided into table columns (table data) with the td tag. <br>
+            </p>
+            <p class="content">Here is an example of a table with 
+                one row and three columns: </p>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="table1" src="https://codepen.io/zyaduqu/embed/MWLYLrY?default-tab=html" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href="https://codepen.io/zyaduqu/pen/MWLYLrY">
+                    table1</a> by ZIYAD ALI ALGHAMDI (<a href="https://codepen.io/zyaduqu">@zyaduqu</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
+
+            <p class="content">Table data tags td act as data containers within the table. </p>
+            <p class="content">They can contain all sorts of HTML elements, such as text, images, lists, other tables, and so on. </p>
+
+            <h2>The border and colspan Attributes</h2>
+
+            <p class="content">A border can be added using the border attribute. A table cell can span two or more columns: </p>
+
+            <iframe height="300" style="width: 100%;" scrolling="no" title="table2" src="https://codepen.io/zyaduqu/embed/JjxoxLW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                See the Pen <a href="https://codepen.io/zyaduqu/pen/JjxoxLW">
+                table2</a> by ZIYAD ALI ALGHAMDI (<a href="https://codepen.io/zyaduqu">@zyaduqu</a>)
+                on <a href="https://codepen.io">CodePen</a>.
+            </iframe>
+
+            <p class="content">To make a cell span more than one row, use the rowspan attribute. </p>
+
+            
+            <button type="submit" class="btn" onclick="completeLesson(this)">Mark as complete</button>
+        </section>
+    </main>
+    <script src="../lessons.js"></script>
+    
+</body>
+</html>
