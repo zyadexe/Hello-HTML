@@ -126,6 +126,7 @@ margin-left: 70px;
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .box{
@@ -233,5 +234,41 @@ margin-left: 70px;
 .main-nav li{
     padding: 4px;
     margin: 0;
+    text-decoration: none;
 }
+
+
 /*navigation styling*/
+
+
+/*footer styling*/
+
+footer{
+    padding-bottom: 1px;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+footer h4{
+    padding-top: 30px;
+}
+
+#login-footer{
+    background-color: rgba(0,0,0,80%);
+    color: white;
+}
+
+#login-footer a{
+    color: rgb(126, 126, 255);
+    text-decoration-line:none;
+}
+
+#lessons-footer{
+    background-color: blue;
+    color: white;
+}
+
+#lessons-footer a{
+    color: white;
+}
