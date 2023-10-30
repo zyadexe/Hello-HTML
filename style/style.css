@@ -245,30 +245,39 @@ margin-left: 70px;
 
 footer{
     padding-bottom: 1px;
-    text-align: center;
     font-weight: lighter;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer h4{
-    padding-top: 30px;
-}
 
 #login-footer{
     background-color: rgba(0,0,0,80%);
     color: white;
+    padding-right: 10px;
 }
 
-#login-footer a{
-    color: rgb(126, 126, 255);
-    text-decoration-line:none;
-}
 
 #lessons-footer{
     background-color: blue;
     color: white;
+    padding-right: 10px;
 }
 
-#lessons-footer a{
-    color: white;
+
+.login-footer-anchors svg{
+    fill: #ffffff;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.lessons-footer-anchors svg{
+    fill: #ffffff;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px; 
 }
